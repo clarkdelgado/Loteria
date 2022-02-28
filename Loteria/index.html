@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Versiti Loteria</title>
+</head>
+
+<body>
+    <div id="popItIn">
+        <div id="container" >
+                
+        </div>
+        <form id="welcomeForm" class="welcome">
+            
+        <img src="loteriabg.png" class="hero" alt="Play Loteria">
+            <label for="roomSearch" class="welcome__label">Room Number / Numero de Cuarto</label>
+            <input class="welcome__input" placeholder="######" type="text" inputmode="numeric" pattern="[0-9]" minlength="6" maxlength="6" required id="roomSearch">
+            <span id="errorMsg1" class="errorMsg invisible"></span>
+            <button class="second_btn" type="submit" id="join">
+                <a href="C:\Users\AngelDelgadoCambray\Desktop\Loteria\player.html">
+                    Join / Entrar
+                </a>
+                
+            </button>
+            <button class="primaryBtn" id="host">
+                <a href="C:\Users\AngelDelgadoCambray\Desktop\Loteria\host.html"> 
+                Host
+                </a>     
+            </button>
+
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,1352 @@
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Versiti Loteria</title>
+
+</head>
+
+
+
+
+<body>
+    <div id="popItIn2">
+        <div class="playerWrap">
+            <div class="playerInfo">
+                <a href="C:\Users\AngelDelgadoCambray\Desktop\Loteria\index.html" class="a--logo logo--player">
+                    <picture>
+                        <!-- <source srcset=" " >  -->
+                        <img src="loteriabg.png" class="logo logo--player" alt="Home">
+                    </picture>
+                    <!-- media="(min-width: 800px)" -->
+                </a>
+                <div class="currentCardWrap currentCardWrap--player">
+
+                    <img id="currentCard" class="currentCard currentCard--player"
+                        src=" C:\Users\AngelDelgadoCambray\Desktop\Loteria\blankCard.png">
+
+                </div>
+                <div class="winWrap winWrap--player">
+                    <img id="winConditionInfo" class="winInfo winInfo--player" src="grid.png ">
+                    <h3>Goal</h3>
+                </div>
+
+            </div>
+            <form id="playerGame" class="playerGame">
+                <div id="boardSelect" class="modal modal--boardSelect invisible">
+                    <div id="boardSelectOptionsWrap" class="modal__content modal__content--boardSelect">
+                        <ol id="boardSelectPages" class="boardSelect__Pages">
+                            <li id="firstPage" class="boardSelect__pageNum">
+                                <a href=" " class="boardSelect__pageNum__a ">1</a>
+                            </li>
+                            <li class="boardSelect__pageNum">
+                                <a href=" " class="boardSelect__pageNum__a ">2</a>
+                            </li>
+                            <li class="boardSelect__pageNum">
+                                <a href=" " class="boardSelect__pageNum__a ">3</a>
+                            </li>
+                            <!-- Placeholder for more "boardSelect__pageNum" -->
+                        </ol>
+                        <div id="boardSelectOptions">
+                            <ol class="boardSelect__page" id="page_1">
+                                <li class="boardSelect__li claimed">
+                                    <input class="boardSelect__input" type="radio" name="boardNumber" value="1">
+                                    <label class="radio-sibling" for="1">
+                                        <!-- Start and Continue in DevTools for "radio-sibling" BookMark -->
+                                        <table>
+                                            <tr>
+                                                <td class="alleged__cell">
+                                                    <img src="firstCard.png">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src="thirdCard.png">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src="secondCard.png">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src="4thCard.png">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="alleged__cell">
+                                                    <img src="5thCard.png">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src="6thCard.png">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src="7thCard.png">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src="8thCard.png">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="alleged__cell">
+                                                    <img src="9thCard.png">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src="10thCard.png">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src="11thCard.png">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src="12thCard.png">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="alleged__cell">
+                                                    <img src="13thCard.png">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src="14thCard.png">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src="15thCard.png">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src="16thCard.png">
+                                                </td>
+                                            </tr>
+                                        </table>
+                                        <span class="boardSelect__span">#1</span>
+                                    </label>
+                                </li>
+                                <li class="boardSelect__li">
+                                    <input class="boardSelect__input" type="radio" name="boardNumber" value="2">
+                                    <label class="radio-sibling" for="2">
+                                        <table>
+                                            <tr>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                            </tr>
+                                        </table>
+                                        <span class="boardSelect__span">#2</span>
+                                    </label>
+                                </li>
+                                <li class="boardSelect__li">
+                                    <input class="boardSelect__input" type="radio" name="boardNumber" value="3">
+                                    <label class="radio-sibling" for="3">
+                                        <table>
+                                            <tr>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                            </tr>
+                                        </table>
+                                        <span class="boardSelect__span">#3</span>
+                                    </label>
+                                </li>
+                                <li class="boardSelect__li">
+                                    <input class="boardSelect__input" type="radio" name="boardNumber" value="4">
+                                    <label class="radio-sibling" for="4">
+                                        <table>
+                                            <tr>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                            </tr>
+                                        </table>
+                                        <span class="boardSelect__span">#4</span>
+                                    </label>
+                                </li>
+                                <li class="boardSelect__li">
+                                    <input class="boardSelect__input" type="radio" name="boardNumber" value="5">
+                                    <label class="radio-sibling" for="5">
+                                        <table>
+                                            <tr>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                            </tr>
+                                        </table>
+                                        <span class="boardSelect__span">#5</span>
+                                    </label>
+                                </li>
+                                <li class="boardSelect__li">
+                                    <input class="boardSelect__input" type="radio" name="boardNumber" value="6">
+                                    <label class="radio-sibling" for="6">
+                                        <table>
+                                            <tr>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                            </tr>
+                                        </table>
+                                        <span class="boardSelect__span">#6</span>
+                                    </label>
+                                </li>
+                                <li class="boardSelect__li">
+                                    <input class="boardSelect__input" type="radio" name="boardNumber" value="7">
+                                    <label class="radio-sibling" for="7">
+                                        <table>
+                                            <tr>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                            </tr>
+                                        </table>
+                                        <span class="boardSelect__span">#7</span>
+                                    </label>
+                                </li>
+                                <li class="boardSelect__li">
+                                    <input class="boardSelect__input" type="radio" name="boardNumber" value="8">
+                                    <label class="radio-sibling" for="8">
+                                        <table>
+                                            <tr>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                            </tr>
+                                        </table>
+                                        <span class="boardSelect__span">#8</span>
+                                    </label>
+                                </li>
+                                <li class="boardSelect__li">
+                                    <input class="boardSelect__input" type="radio" name="boardNumber" value="9">
+                                    <label class="radio-sibling" for="9">
+                                        <table>
+                                            <tr>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                            </tr>
+                                        </table>
+                                        <span class="boardSelect__span">#9</span>
+                                    </label>
+                                </li>
+                            </ol>
+                            <ol class="boardSelect__page" id="page_2">
+                                <li class="boardSelect__li">
+                                    <input class="boardSelect__input" type="radio" name="boardNumber" value="10">
+                                    <label class="radio-sibling" for="10">
+                                        <table>
+                                            <tr>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                            </tr>
+                                        </table>
+                                        <span class="boardSelect__span">#10</span>
+                                    </label>
+                                </li>
+                                <li class="boardSelect__li">
+                                    <input class="boardSelect__input" type="radio" name="boardNumber" value="11">
+                                    <label class="radio-sibling" for="11">
+                                        <table>
+                                            <tr>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                            </tr>
+                                        </table>
+                                        <span class="boardSelect__span">#11</span>
+                                    </label>
+                                </li>
+                                <li class="boardSelect__li">
+                                    <input class="boardSelect__input" type="radio" name="boardNumber" value="12">
+                                    <label class="radio-sibling" for="12">
+                                        <table>
+                                            <tr>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                            </tr>
+                                        </table>
+                                        <span class="boardSelect__span">#12</span>
+                                    </label>
+                                </li>
+                                <li class="boardSelect__li">
+                                    <input class="boardSelect__input" type="radio" name="boardNumber" value="13">
+                                    <label class="radio-sibling" for="13">
+                                        <table>
+                                            <tr>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                            </tr>
+                                        </table>
+                                        <span class="boardSelect__span">#13</span>
+                                    </label>
+                                </li>
+                                <li class="boardSelect__li">
+                                    <input class="boardSelect__input" type="radio" name="boardNumber" value="14">
+                                    <label class="radio-sibling" for="14">
+                                        <table>
+                                            <tr>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                            </tr>
+                                        </table>
+                                        <span class="boardSelect__span">#14</span>
+                                    </label>
+                                </li>
+                                <li class="boardSelect__li">
+                                    <input class="boardSelect__input" type="radio" name="boardNumber" value="15">
+                                    <label class="radio-sibling" for="15">
+                                        <table>
+                                            <tr>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                            </tr>
+                                        </table>
+                                        <span class="boardSelect__span">#15</span>
+                                    </label>
+                                </li>
+                                <li class="boardSelect__li">
+                                    <input class="boardSelect__input" type="radio" name="boardNumber" value="16">
+                                    <label class="radio-sibling" for="16">
+                                        <table>
+                                            <tr>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                            </tr>
+                                        </table>
+                                        <span class="boardSelect__span">#16</span>
+                                    </label>
+                                </li>
+                                <li class="boardSelect__li">
+                                    <input class="boardSelect__input" type="radio" name="boardNumber" value="17">
+                                    <label class="radio-sibling" for="17">
+                                        <table>
+                                            <tr>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                            </tr>
+                                        </table>
+                                        <span class="boardSelect__span">#17</span>
+                                    </label>
+                                </li>
+                                <li class="boardSelect__li">
+                                    <input class="boardSelect__input" type="radio" name="boardNumber" value="18">
+                                    <label class="radio-sibling" for="18">
+                                        <table>
+                                            <tr>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                            </tr>
+                                        </table>
+                                        <span class="boardSelect__span">#18</span>
+                                    </label>
+                                </li>
+                            </ol>
+                            <ol class="boardSelect__page" id="page_3">
+                                <li class="boardSelect__li">
+                                    <input class="boardSelect__input" type="radio" name="boardNumber" value="19">
+                                    <label class="radio-sibling" for="19">
+                                        <table>
+                                            <tr>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                            </tr>
+                                        </table>
+                                        <span class="boardSelect__span">#19</span>
+                                    </label>
+                                </li>
+                                <li class="boardSelect__li">
+                                    <input class="boardSelect__input" type="radio" name="boardNumber" value="20">
+                                    <label class="radio-sibling" for="20">
+                                        <table>
+                                            <tr>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                                <td class="alleged__cell">
+                                                    <img src=" ">
+                                                </td>
+                                            </tr>
+                                        </table>
+                                        <span class="boardSelect__span">#20</span>
+                                    </label>
+                                </li>
+                            </ol>
+
+                        </div>
+                    </div>
+                    <h2>
+                        <span class="modal__span">Choose your</span>
+                        <br>
+                        board
+                    </h2>
+                    <button id="newBoard" class="primaryBtn">Select</button>
+                </div>
+                <!-- placeHolder for waitingModal -->
+
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
